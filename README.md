@@ -4,7 +4,7 @@ This project focuses on classifying fashion outfit styles from images using Conv
 
 ---
 
-##Motivation
+## Motivation
 
 Fashion recognition tasks are a growing area of computer vision. The goal of this project was to:
 - Build a CNN model to classify images into one of the fashion style categories.
@@ -13,7 +13,7 @@ Fashion recognition tasks are a growing area of computer vision. The goal of thi
 
 ---
 
-##Dataset
+## Dataset
 
 **FashionStyle14**: Contains over 14,000 labeled images across 14 distinct fashion style categories.
 
@@ -22,7 +22,7 @@ Fashion recognition tasks are a growing area of computer vision. The goal of thi
 
 ---
 
-##Models
+## Models
 
 ### 1. Custom CNN
 - Basic architecture with a few convolutional and pooling layers.
@@ -35,13 +35,13 @@ Fashion recognition tasks are a growing area of computer vision. The goal of thi
 
 ---
 
-##Evaluation
+## Evaluation
 - Accuracy, confusion matrix, and loss curves used to evaluate performance.
 - Training and validation splits created from dataset using PyTorch’s `Dataset` and `DataLoader`.
 
 ---
 
-##Technologies Used
+## Technologies Used
 
 - **Python**
 - **PyTorch**
@@ -51,7 +51,7 @@ Fashion recognition tasks are a growing area of computer vision. The goal of thi
 
 ---
 
-##Future Improvements
+## Future Improvements
 
 Extend back to all 14 original style classes with more data balancing
 Try alternative pretrained models like EfficientNet or MobileNet
@@ -59,7 +59,7 @@ Deploy a demo app using Streamlit or Flask
 
 ---
 
-📈 Results
+## Results
 
 Model | Accuracy |
 --- | --- |
